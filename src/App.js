@@ -1,12 +1,10 @@
-import React from "react";
+import './App.css';
+import MessangerPage from "./pages/MessangerPage/MessangerPage";
+
 function App() {
   return (
-    <h1>
-      RFD
-    </h1>
+    <MessangerPage />
   );
 }
 
 export default App;
-
-

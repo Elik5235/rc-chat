@@ -1,13 +1,13 @@
 import React, { useState, useReducer, useEffect } from 'react';
 import DialogList from '../DialogList/DialogList';
-import Chat from '../Chat/Chat';
+import Chat from '../chat/chat.js';
 import MessageArea from '../MessageArea/MessageArea';
 import styles from './Dashboard.module.css';
-import UserContext from '../../contexts/UserContext';
+import UserContext from '../components/contexts/UserContext';
 import { getMessages } from '../../api';
 import CONSTANTS from '../../constants';
 import messageReducer from '../../reducers/messageReducer';
-
+``
 
 const { ACTIONS } = CONSTANTS;
 
